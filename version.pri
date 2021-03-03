@@ -6,7 +6,7 @@
 #   Redistribution and use in source and binary forms are allowed under the 
 #   terms of BSD License 2.0. See LICENSE file
 ################################################################################
-ProjectName="sampleApp"
+ProjectName="SampleLibrary"
 VERSION=0.0.1
 
 #+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-
@@ -18,10 +18,6 @@ QT+= \
 
 QT -= \
     gui
-
-#+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-
-#If you want to use preinstalled dependencies instead of buildeing them set flag to 1
-DONT_BUILD_DEPS=0
 
 #+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-
 # Qt5.5.1 on OSX needs both c++11 and c++14!! the c++14 is not enough
